@@ -2,17 +2,17 @@ Laboratorium II - Relacje w JPA - stan na 8.11.2025
 
 **Uwaga - Przed przystapieniem do zadania proszę o wykonanie zadania LAB01 (poprzednie zajęcia). **
 
-1. Zsynchronizuj swoje repozytorium z repozytorium prowadzącego (Sync Fork bądź Pull z repozytorium prowadzącego). Można
+1. [x] Zsynchronizuj swoje repozytorium z repozytorium prowadzącego (Sync Fork bądź Pull z repozytorium prowadzącego). Można
    wykonać to bezpośrednio w GitHubie lub lokalnie.
-2. Do projektu dodaj plik github-ci-cd.yml. Plik ten znajduje się w katalogu resources/JPA/LAB02/github-ci-cd.yml.
+2. [x] Do projektu dodaj plik github-ci-cd.yml. Plik ten znajduje się w katalogu resources/JPA/LAB02/github-ci-cd.yml.
    Plik powinien zostać umieszczony pod .github/workflows/github-ci-cd.yml
-3. Scommituj zmiany i wyślij je do swojego repozytorium. Zweryfikuj czy projekt poprawnie się buduje na Github (zakładka
+3. [x] Scommituj zmiany i wyślij je do swojego repozytorium. Zweryfikuj czy projekt poprawnie się buduje na Github (zakładka
    Actions)
-4. Przenieś klasę DatabaseSchemaTest.java z folderu resources/JPA/LAB02/DatabaseSchemaTest do katalogu testowego (
+4. [x] Przenieś klasę DatabaseSchemaTest.java z folderu resources/JPA/LAB02/DatabaseSchemaTest do katalogu testowego (
    src/test/java/pl/wsb/fitnesstracker).
-5. Scommituj zmiany i wyślij je do swojego repozytorium.
-6. Zweryfikuj czy projekt poprawnie się buduje na Github. Test nie powinny poprawnie przechodzić
-7. Zapoznaj się z poniższym schematem relacyjnym bazy danych. Korzystając z wiedzy przekazanej na wykładzie, literatury
+5. [x] Scommituj zmiany i wyślij je do swojego repozytorium.
+6. [x] Zweryfikuj czy projekt poprawnie się buduje na Github. Test nie powinny poprawnie przechodzić
+7. [x] Zapoznaj się z poniższym schematem relacyjnym bazy danych. Korzystając z wiedzy przekazanej na wykładzie, literatury
    oraz internetu, uzupełnij brakujące tabele i relacje w aktualnej definicji encji (zwróć uwagę także na nazwy tabel
    oraz brakujące kolumny).
    Określ nullowalność oraz nazwy kolumn. Ustaw relacje tak, aby przynajmniej raz była wykorzystana relacja
@@ -21,7 +21,7 @@ Laboratorium II - Relacje w JPA - stan na 8.11.2025
 
    ![](db_schema.png)
 
-8. Wprowadzone zmiany prześlij na swoje repozytorium. Testy powinny poprawnie się wykonać lokalnie oraz platformie
+8. [x] Wprowadzone zmiany prześlij na swoje repozytorium. Testy powinny poprawnie się wykonać lokalnie oraz platformie
    Github.
 9. Zgłoś prowadzącemu wykonanie zadanie, celem uzyskania oceny.
 
